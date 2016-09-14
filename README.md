@@ -1,2 +1,2 @@
 # SudokuHelper
-Sudoku Helper
+Sudoku Term Project for CPP/OOPP

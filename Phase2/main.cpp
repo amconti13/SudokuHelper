@@ -1,14 +1,12 @@
 //
 //  main.cpp
-//  P1_AriannaConti
+//  Sudoku Helper
 //
 //  Created by Arianna on 9/18/16.
 //  Copyright © 2016 Arianna. All rights reserved.
 //
 
 #include "State.hpp"
-
-
 
 void stateTest() {
     char c = '2';

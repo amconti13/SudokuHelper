@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Sudoku Helper
+//  SudokuHelper
 //
 //  Created by Arianna on 9/18/16.
 //  Copyright © 2016 Arianna. All rights reserved.
@@ -35,6 +35,5 @@ int main(void) {
     cout << "Run stateTest() and squareTest()\n";
     stateTest();
     squareTest();
-    
     bye();
 }

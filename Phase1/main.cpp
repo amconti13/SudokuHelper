@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  1-Sudoku-AConti
+//  SudokuHelper
 //
 //  Created by Arianna on 9/27/16.
 //  Copyright © 2016 Arianna. All rights reserved.

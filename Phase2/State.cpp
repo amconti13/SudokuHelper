@@ -1,6 +1,6 @@
 //
 //  State.cpp
-//  Sudoku Helper
+//  SudokuHelper
 //
 //  Created by Arianna on 9/18/16.
 //  Copyright © 2016 Arianna. All rights reserved.
@@ -17,7 +17,6 @@ State::State( char value ) {
     f = (value == '-') ? false : true ;
 }
 
-
 //-------------------------------------------------------------------------
 //Move
 void State::move ( char ch ) {
@@ -27,12 +26,14 @@ void State::move ( char ch ) {
         p = 0;
     }
 }
+
 //-------------------------------------------------------------------------
 //Delete
 void State::erase() {
     if( f == true ) say( "Err: This State is fixed.");    //otherwise:
     else v = '-';
 }
+
 //-------------------------------------------------------------------------
 //Print
 ostream& State::print( ostream& out ) {
@@ -50,7 +51,6 @@ Square::Square() : State( '-' ) {
     cout << "Constructing empty Square[" << r << ", " << c << "]" << endl;
 }
 
-
 //-------------------------------------------------------------------------
 //Initialize the state of a square
 Square::Square ( char ch,  short row, short column ) : State( ch ) {
@@ -60,6 +60,7 @@ Square::Square ( char ch,  short row, short column ) : State( ch ) {
 }
 
 //-------------------------------------------------------------------------
+//Destructor
 Square::~Square() {
     cout << "Deleting square..." << endl;
 }

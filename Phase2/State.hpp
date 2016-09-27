@@ -1,6 +1,6 @@
 //
 //  State.hpp
-//  Sudoku Helper
+//  SudokuHelper
 //
 //  Created by Arianna on 9/18/16.
 //  Copyright © 2016 Arianna. All rights reserved.
@@ -18,17 +18,13 @@ protected:
     short p;//possibilities
     
 public:
-    //Did I initialize correctly and use ternary condition okay?
     State( char value );
-    
     ~State() = default;
-    
     void move(char ch);
     void erase();//cant write delete()
     ostream& print( ostream& out );
 };
 
-//----------------------------------------------------------------
 inline ostream& operator<< (ostream& out, State& state) {
     state.print(out);
     //print( out );
@@ -56,11 +52,5 @@ inline ostream& operator<< (ostream& out, Square& square){
     square.print(out);
     return out;
 }
-
-
-
-
-
-
 
 #endif /* State_hpp */

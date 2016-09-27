@@ -16,7 +16,6 @@ State::State(char value){
     f = (value == '-') ? false : true ;
 }
 
-
 //-------------------------------------------------------------------------
 //Move
 void State::move(char ch){
@@ -26,12 +25,14 @@ void State::move(char ch){
         p = 0;
     }
 }
+
 //-------------------------------------------------------------------------
-//Delete
+//Erase
 void State::erase(){
     if( f == true ) say( "Err: This State is fixed.");    //otherwise:
     else v = '-';
 }
+
 //-------------------------------------------------------------------------
 //Print
 ostream& State::print( ostream& out){
@@ -41,7 +42,5 @@ ostream& State::print( ostream& out){
         if( x == 1 ) cout << k;
     }
     cout << "\n";
-    
-    
     return out;
 }

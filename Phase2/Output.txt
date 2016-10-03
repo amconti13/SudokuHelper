@@ -1,0 +1,21 @@
+--------------------------------------------------------
+	Arianna Conti
+	CS 6620
+	Mon Oct  3 2016	13:00:56
+----------------------------------------------------------
+Run stateTest() and squareTest()
+
+In stateTest(): Creates the state of an object including value, possibilities and if it is fixed or not.
+Created state object: state(2)
+Output (list of possibilities): 1--4567--
+
+In squareTest(): Creates a square object including value, row and column.
+Constructing empty Square[1, 1]
+Constructing Square[1, 1]
+Created square objects: square1 and square2(1, 1, 1)
+Output (square1): Square [1, 1]   Value: -   Possible: 12345---9    Fixed: False
+Output (square2): Square [1, 1]   Value: 1   Possible: 1--4567--    Fixed: True
+Deleting square...
+Deleting square...
+
+Normal termination.

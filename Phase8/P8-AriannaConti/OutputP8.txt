@@ -1,0 +1,1061 @@
+
+--------------------------------------------------------
+	Arianna Conti
+	CS 6620
+	Tue Dec 13 2016	17:37:36
+----------------------------------------------------------
+Run gameTest() [now program has exceptions]
+
+In gameTest(): Sets up the game.
+
+Input file name with new game: sudo-test1.txt
+File: sudo-test1.txt opened.
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: P
+ Please enter a valid choice from the menu.
+
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: p
+Non dash count: 30
+Type: row   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: row   Square: [1, 7]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: row   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: row   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+
+Type: row   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: row   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: row   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: row   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: row   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: row   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+
+Type: row   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: row   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: row   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+Type: row   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: row   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 7]   Value: -   Possible: 12--567--   Fixed: 0
+Type: row   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+
+Type: row   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: row   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: row   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: row   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: row   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: row   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: row   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: row   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: row   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: row   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: row   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+
+Type: row   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: row   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: row   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+Type: row   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: row   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: row   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: row   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: row   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: row   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+
+Type: row   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: row   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: row   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: row   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: row   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [8, 8]   Value: -   Possible: -2-4--7--   Fixed: 0
+Type: row   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+
+Type: row   Square: [9, 1]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: row   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+Type: row   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+Type: row   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+Type: row   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 7]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: row   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: column   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: column   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: column   Square: [9, 1]   Value: -   Possible: ---4---8-   Fixed: 0
+
+Type: column   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: column   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: column   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: column   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: column   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: column   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+Type: column   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: column   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: column   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: column   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: column   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: column   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: column   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+
+Type: column   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: column   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: column   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: column   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: column   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: column   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: column   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: column   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: column   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: column   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+Type: column   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: column   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 7]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: column   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: column   Square: [3, 7]   Value: -   Possible: 12--567--   Fixed: 0
+Type: column   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: column   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 7]   Value: -   Possible: -2-4-----   Fixed: 0
+
+Type: column   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: column   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: column   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: column   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: column   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: column   Square: [8, 8]   Value: -   Possible: -2-4--7--   Fixed: 0
+Type: column   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: column   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: column   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+Type: column   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+Type: column   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+Type: column   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+Type: box   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: box   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: box   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: box   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+
+Type: box   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: box   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: box   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: box   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: box   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: box   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+
+Type: box   Square: [1, 7]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: box   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: box   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: box   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: box   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: box   Square: [3, 7]   Value: -   Possible: 12--567--   Fixed: 0
+Type: box   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+
+Type: box   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: box   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: box   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: box   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: box   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: box   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: box   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: box   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: box   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: box   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: box   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+
+Type: box   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: box   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: box   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+Type: box   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: box   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: box   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: box   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: box   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [9, 1]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: box   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+Type: box   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: box   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: box   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: box   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: box   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+Type: box   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: box   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: box   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: box   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+Type: box   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 8]   Value: -   Possible: -2-4--7--   Fixed: 0
+Type: box   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 7]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: box   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+┏━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┳━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┳━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┓
+┃---------│---------│---345---┃---------│---------│--23---7-┃--2-45-7-│--2-45-7-│--2-4----┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    9    │    8    │    -    ┃    1    │    6    │    -    ┃    -    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│----45-7-│---------┃-----5-7-│-----5---│-------7-┃-1--45-7-│---------│----4---8┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    2    │    -    │    6    ┃    -    │    -    │    -    ┃    -    │    3    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃-----5-7-│---3-5-7-│-1-3-5---┃---------│--23-5---│---------┃-12--567-│---------│--2---6--┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    -    ┃    8    │    -    │    4    ┃    -    │    9    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┣━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━┫
+┃---------│----4-6--│--2-4----┃----4-6--│----4---8│---------┃---------│--2-4---8│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    1    │    -    │    -    ┃    -    │    -    │    5    ┃    3    │    -    │    7    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----456--│----456--│---------┃---34-67-│-1-34----│---3--67-┃---------│--2-45---│--2-4-6--┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    8    ┃    -    │    -    │    -    ┃    9    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│----456--│---------┃---------│----4---8│------6--┃----456--│----45--8│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    3    │    -    │    7    ┃    2    │    -    │    -    ┃    -    │    -    │    1    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┣━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━┫
+┃----4567-│---------│---345---┃---------│---345---│---------┃-1--4--7-│-1--4--7-│---34----┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    2    │    -    ┃    9    │    -    │    8    ┃    -    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----4567-│---------│---345---┃---3456--│--2345---│--23--6--┃---------│--2-4--7-│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    1    │    -    ┃    -    │    -    │    -    ┃    8    │    -    │    9    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----4---8│---34----│---34----┃---34----│---------│---------┃--2-4----│---------│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    -    ┃    -    │    7    │    1    ┃    -    │    6    │    5    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┻━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┻━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: m
+Enter row, column and value(rcv): 972
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: p
+Non dash count: 31
+Type: row   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: row   Square: [1, 7]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: row   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: row   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+
+Type: row   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: row   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: row   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: row   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: row   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: row   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+
+Type: row   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: row   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: row   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+Type: row   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: row   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 7]   Value: -   Possible: 1---567--   Fixed: 0
+Type: row   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+
+Type: row   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: row   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: row   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: row   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: row   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: row   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: row   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: row   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: row   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: row   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: row   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+
+Type: row   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: row   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: row   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+Type: row   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: row   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: row   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: row   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: row   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: row   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+
+Type: row   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: row   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: row   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: row   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: row   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [8, 8]   Value: -   Possible: ---4--7--   Fixed: 0
+Type: row   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+
+Type: row   Square: [9, 1]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: row   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+Type: row   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+Type: row   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+Type: row   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 7]   Value: 2   Possible: ---------   Fixed: 0
+Type: row   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: column   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: column   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: column   Square: [9, 1]   Value: -   Possible: ---4---8-   Fixed: 0
+
+Type: column   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: column   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: column   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: column   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: column   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: column   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+Type: column   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: column   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: column   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: column   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: column   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: column   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: column   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+
+Type: column   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: column   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: column   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: column   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: column   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: column   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: column   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: column   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: column   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: column   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+Type: column   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: column   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 7]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: column   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: column   Square: [3, 7]   Value: -   Possible: 1---567--   Fixed: 0
+Type: column   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: column   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 7]   Value: 2   Possible: ---------   Fixed: 0
+
+Type: column   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: column   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: column   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: column   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: column   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: column   Square: [8, 8]   Value: -   Possible: ---4--7--   Fixed: 0
+Type: column   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: column   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: column   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+Type: column   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+Type: column   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+Type: column   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+Type: box   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: box   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: box   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: box   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+
+Type: box   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: box   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: box   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: box   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: box   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: box   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+
+Type: box   Square: [1, 7]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: box   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: box   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: box   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: box   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: box   Square: [3, 7]   Value: -   Possible: 1---567--   Fixed: 0
+Type: box   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+
+Type: box   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: box   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: box   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: box   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: box   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: box   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: box   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: box   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: box   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: box   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: box   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+
+Type: box   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: box   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: box   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+Type: box   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: box   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: box   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: box   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: box   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [9, 1]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: box   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+Type: box   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: box   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: box   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: box   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: box   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+Type: box   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: box   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: box   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: box   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+Type: box   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 8]   Value: -   Possible: ---4--7--   Fixed: 0
+Type: box   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 7]   Value: 2   Possible: ---------   Fixed: 0
+Type: box   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+┏━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┳━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┳━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┓
+┃---------│---------│---345---┃---------│---------│--23---7-┃----45-7-│--2-45-7-│--2-4----┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    9    │    8    │    -    ┃    1    │    6    │    -    ┃    -    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│----45-7-│---------┃-----5-7-│-----5---│-------7-┃-1--45-7-│---------│----4---8┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    2    │    -    │    6    ┃    -    │    -    │    -    ┃    -    │    3    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃-----5-7-│---3-5-7-│-1-3-5---┃---------│--23-5---│---------┃-1---567-│---------│--2---6--┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    -    ┃    8    │    -    │    4    ┃    -    │    9    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┣━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━┫
+┃---------│----4-6--│--2-4----┃----4-6--│----4---8│---------┃---------│--2-4---8│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    1    │    -    │    -    ┃    -    │    -    │    5    ┃    3    │    -    │    7    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----456--│----456--│---------┃---34-67-│-1-34----│---3--67-┃---------│--2-45---│--2-4-6--┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    8    ┃    -    │    -    │    -    ┃    9    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│----456--│---------┃---------│----4---8│------6--┃----456--│----45--8│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    3    │    -    │    7    ┃    2    │    -    │    -    ┃    -    │    -    │    1    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┣━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━┫
+┃----4567-│---------│---345---┃---------│---345---│---------┃-1--4--7-│-1--4--7-│---34----┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    2    │    -    ┃    9    │    -    │    8    ┃    -    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----4567-│---------│---345---┃---3456--│--2345---│--23--6--┃---------│----4--7-│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    1    │    -    ┃    -    │    -    │    -    ┃    8    │    -    │    9    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----4---8│---34----│---34----┃---34----│---------│---------┃---------│---------│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    -    ┃    -    │    7    │    1    ┃    2    │    6    │    5    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┻━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┻━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: m
+Enter row, column and value(rcv): 918
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: p
+Non dash count: 32
+Type: row   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: row   Square: [1, 7]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: row   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: row   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+
+Type: row   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: row   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: row   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: row   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: row   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: row   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+
+Type: row   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: row   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: row   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+Type: row   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: row   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 7]   Value: -   Possible: 1---567--   Fixed: 0
+Type: row   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+
+Type: row   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: row   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: row   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: row   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: row   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: row   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: row   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: row   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: row   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: row   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: row   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+
+Type: row   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: row   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: row   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+Type: row   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: row   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: row   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: row   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: row   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: row   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: row   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+
+Type: row   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: row   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: row   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: row   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: row   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: row   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: row   Square: [8, 8]   Value: -   Possible: ---4--7--   Fixed: 0
+Type: row   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+
+Type: row   Square: [9, 1]   Value: 8   Possible: ---------   Fixed: 0
+Type: row   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+Type: row   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+Type: row   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+Type: row   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 7]   Value: 2   Possible: ---------   Fixed: 0
+Type: row   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+Type: row   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: column   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: column   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: column   Square: [9, 1]   Value: 8   Possible: ---------   Fixed: 0
+
+Type: column   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: column   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: column   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: column   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: column   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: column   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+Type: column   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: column   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: column   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: column   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: column   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: column   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: column   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+
+Type: column   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: column   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: column   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: column   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: column   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: column   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: column   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: column   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: column   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: column   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: column   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: column   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+Type: column   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: column   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 7]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: column   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: column   Square: [3, 7]   Value: -   Possible: 1---567--   Fixed: 0
+Type: column   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: column   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: column   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 7]   Value: 2   Possible: ---------   Fixed: 0
+
+Type: column   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: column   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: column   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: column   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: column   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: column   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: column   Square: [8, 8]   Value: -   Possible: ---4--7--   Fixed: 0
+Type: column   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+
+Type: column   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: column   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: column   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+Type: column   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+Type: column   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+Type: column   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+Type: column   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+Type: column   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+Type: column   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+Type: box   Square: [1, 1]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 2]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [2, 1]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [2, 2]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: box   Square: [2, 3]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 1]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: box   Square: [3, 2]   Value: -   Possible: --3-5-7--   Fixed: 0
+Type: box   Square: [3, 3]   Value: -   Possible: 1-3-5----   Fixed: 0
+
+Type: box   Square: [1, 4]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 5]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [1, 6]   Value: -   Possible: -23---7--   Fixed: 0
+Type: box   Square: [2, 4]   Value: -   Possible: ----5-7--   Fixed: 0
+Type: box   Square: [2, 5]   Value: -   Possible: ----5---9   Fixed: 0
+Type: box   Square: [2, 6]   Value: -   Possible: ------7-9   Fixed: 0
+Type: box   Square: [3, 4]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 5]   Value: -   Possible: -23-5----   Fixed: 0
+Type: box   Square: [3, 6]   Value: 4   Possible: ---------   Fixed: 1
+
+Type: box   Square: [1, 7]   Value: -   Possible: ---45-7--   Fixed: 0
+Type: box   Square: [1, 8]   Value: -   Possible: -2-45-7--   Fixed: 0
+Type: box   Square: [1, 9]   Value: -   Possible: -2-4-----   Fixed: 0
+Type: box   Square: [2, 7]   Value: -   Possible: 1--45-7--   Fixed: 0
+Type: box   Square: [2, 8]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [2, 9]   Value: -   Possible: ---4---8-   Fixed: 0
+Type: box   Square: [3, 7]   Value: -   Possible: 1---567--   Fixed: 0
+Type: box   Square: [3, 8]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [3, 9]   Value: -   Possible: -2---6---   Fixed: 0
+
+Type: box   Square: [4, 1]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [4, 2]   Value: -   Possible: ---4-6--9   Fixed: 0
+Type: box   Square: [4, 3]   Value: -   Possible: -2-4----9   Fixed: 0
+Type: box   Square: [5, 1]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [5, 2]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [5, 3]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 1]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 2]   Value: -   Possible: ---456--9   Fixed: 0
+Type: box   Square: [6, 3]   Value: 7   Possible: ---------   Fixed: 1
+
+Type: box   Square: [4, 4]   Value: -   Possible: ---4-6---   Fixed: 0
+Type: box   Square: [4, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: box   Square: [4, 6]   Value: 5   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 4]   Value: -   Possible: --34-67--   Fixed: 0
+Type: box   Square: [5, 5]   Value: -   Possible: 1-34-----   Fixed: 0
+Type: box   Square: [5, 6]   Value: -   Possible: --3--67--   Fixed: 0
+Type: box   Square: [6, 4]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [6, 5]   Value: -   Possible: ---4---89   Fixed: 0
+Type: box   Square: [6, 6]   Value: -   Possible: -----6--9   Fixed: 0
+
+Type: box   Square: [4, 7]   Value: 3   Possible: ---------   Fixed: 1
+Type: box   Square: [4, 8]   Value: -   Possible: -2-4---8-   Fixed: 0
+Type: box   Square: [4, 9]   Value: 7   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 7]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [5, 8]   Value: -   Possible: -2-45----   Fixed: 0
+Type: box   Square: [5, 9]   Value: -   Possible: -2-4-6---   Fixed: 0
+Type: box   Square: [6, 7]   Value: -   Possible: ---456---   Fixed: 0
+Type: box   Square: [6, 8]   Value: -   Possible: ---45--8-   Fixed: 0
+Type: box   Square: [6, 9]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: box   Square: [7, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: box   Square: [7, 2]   Value: 2   Possible: ---------   Fixed: 1
+Type: box   Square: [7, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [8, 1]   Value: -   Possible: ---4567--   Fixed: 0
+Type: box   Square: [8, 2]   Value: 1   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 3]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [9, 1]   Value: 8   Possible: ---------   Fixed: 0
+Type: box   Square: [9, 2]   Value: -   Possible: --34----9   Fixed: 0
+Type: box   Square: [9, 3]   Value: -   Possible: --34----9   Fixed: 0
+
+Type: box   Square: [7, 4]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [7, 5]   Value: -   Possible: --345----   Fixed: 0
+Type: box   Square: [7, 6]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 4]   Value: -   Possible: --3456---   Fixed: 0
+Type: box   Square: [8, 5]   Value: -   Possible: -2345----   Fixed: 0
+Type: box   Square: [8, 6]   Value: -   Possible: -23--6---   Fixed: 0
+Type: box   Square: [9, 4]   Value: -   Possible: --34-----   Fixed: 0
+Type: box   Square: [9, 5]   Value: 7   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 6]   Value: 1   Possible: ---------   Fixed: 1
+
+Type: box   Square: [7, 7]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: box   Square: [7, 8]   Value: -   Possible: 1--4--7--   Fixed: 0
+Type: box   Square: [7, 9]   Value: -   Possible: --34-----   Fixed: 0
+Type: box   Square: [8, 7]   Value: 8   Possible: ---------   Fixed: 1
+Type: box   Square: [8, 8]   Value: -   Possible: ---4--7--   Fixed: 0
+Type: box   Square: [8, 9]   Value: 9   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 7]   Value: 2   Possible: ---------   Fixed: 0
+Type: box   Square: [9, 8]   Value: 6   Possible: ---------   Fixed: 1
+Type: box   Square: [9, 9]   Value: 5   Possible: ---------   Fixed: 1
+
+┏━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┳━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┳━━━━━━━━━┯━━━━━━━━━┯━━━━━━━━━┓
+┃---------│---------│---345---┃---------│---------│--23---7-┃----45-7-│--2-45-7-│--2-4----┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    9    │    8    │    -    ┃    1    │    6    │    -    ┃    -    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│----45-7-│---------┃-----5-7-│-----5---│-------7-┃-1--45-7-│---------│----4---8┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    2    │    -    │    6    ┃    -    │    -    │    -    ┃    -    │    3    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃-----5-7-│---3-5-7-│-1-3-5---┃---------│--23-5---│---------┃-1---567-│---------│--2---6--┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    -    ┃    8    │    -    │    4    ┃    -    │    9    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┣━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━┫
+┃---------│----4-6--│--2-4----┃----4-6--│----4---8│---------┃---------│--2-4---8│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    1    │    -    │    -    ┃    -    │    -    │    5    ┃    3    │    -    │    7    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----456--│----456--│---------┃---34-67-│-1-34----│---3--67-┃---------│--2-45---│--2-4-6--┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    -    │    8    ┃    -    │    -    │    -    ┃    9    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│----456--│---------┃---------│----4---8│------6--┃----456--│----45--8│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    3    │    -    │    7    ┃    2    │    -    │    -    ┃    -    │    -    │    1    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┣━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━╋━━━━━━━━━┿━━━━━━━━━┿━━━━━━━━━┫
+┃----4567-│---------│---345---┃---------│---345---│---------┃-1--4--7-│-1--4--7-│---34----┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    2    │    -    ┃    9    │    -    │    8    ┃    -    │    -    │    -    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃----4567-│---------│---345---┃---3456--│--2345---│--23--6--┃---------│----4--7-│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    -    │    1    │    -    ┃    -    │    -    │    -    ┃    8    │    -    │    9    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┠─────────┼─────────┼─────────╂─────────┼─────────┼─────────╂─────────┼─────────┼─────────┨
+┃---------│---34----│---34----┃---34----│---------│---------┃---------│---------│---------┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┃    8    │    -    │    -    ┃    -    │    7    │    1    ┃    2    │    6    │    5    ┃
+┃         │         │         ┃         │         │         ┃         │         │         ┃
+┗━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┻━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┻━━━━━━━━━┷━━━━━━━━━┷━━━━━━━━━┛
+
+Sudoku
+
+	 print board
+	 move
+	 undo
+	 redo
+	 save game
+	 load game
+	 new game
+	 quit and discard game
+
+ Enter code of desired item: q
+Game over.
+Normal termination.
+Program ended with exit code: 0
